@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <title>Country Search - Special Ops</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Special Ops Country Search</h1>
+        <input type="text" id="searchInput" placeholder="Search country..." autocomplete="off" />
+        
+        <!-- Dropdown for search results -->
+        <div class="dropdown-menu" id="suggestions" style="display: none;"></div>
+
+        <div class="results-container">
+            <h2 id="countryName">Country Name: </h2>
+            <img id="countryFlag" src=".." alt="Loading" width="100" />
+
+            <div class="country-details">
+                <div class="stat" id="countryCapital">Capital: </div>
+                <div class="stat" id="countryPopulation">Population: </div>
+                <div class="stat" id="countryRegion">Region: </div>
+                <div class="stat" id="countrySubregion">Subregion: </div>
+            </div>
+            <!-- Add the map container -->
+            <div id="map" style="height: 400px;"></div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

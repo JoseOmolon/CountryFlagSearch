@@ -1,0 +1,87 @@
+body {
+    background-color: #2d2d2d; /* Dark background for military theme */
+    color: #00ff00; /* Green text for matrix effect */
+    font-family: 'Courier New', Courier, monospace; /* Monospace font */
+    overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+.container {
+    max-width: 600px;
+    margin: auto; /* Center the container */
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #3c3c3c; /* Lighter dark background */
+    border: 2px solid #666; /* Subtle border */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative; /* Positioning for dropdown */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 5px black; /* Shadow for text effect */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #666;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #444; /* Darker input field */
+    color: #00ff00; /* Green text in input */
+}
+
+.results-container {
+    text-align: center;
+}
+
+#countryFlag {
+    border: 2px solid #666; /* Border for the flag */
+    border-radius: 5px;
+    margin-bottom: 10px;
+    max-width: 100%; /* Responsive flag */
+}
+
+.country-details {
+    margin-top: 20px;
+    background-color: #555; /* Background for country details */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.stat {
+    margin: 5px 0;
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Space out label and value */
+    font-size: 18px; /* Increase font size */
+    opacity: 0; /* Start hidden for animation */
+    transition: opacity 0.5s ease; /* Fade-in effect */
+}
+
+.dropdown-menu {
+    position: absolute; /* Position relative to container */
+    z-index: 1000; /* Ensure it appears on top */
+    background: #444; /* Dropdown background */
+    border: 2px solid #666; /* Dropdown border */
+    border-radius: 5px;
+    width: 100%; /* Match input width */
+    max-height: 200px; /* Limit height */
+    overflow-y: auto; /* Scroll if needed */
+}
+
+.dropdown-item {
+    padding: 10px; /* Padding for dropdown items */
+    cursor: pointer; /* Pointer on hover */
+    color: #00ff00; /* Green text */
+}
+
+.dropdown-item:hover {
+    background-color: #666; /* Highlight on hover */
+}
+
+#map {
+    margin-top: 20px; /* Space above map */
+    border-radius: 5px; /* Rounded corners */
+}
