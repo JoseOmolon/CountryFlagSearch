@@ -7,3 +7,4 @@ Welcome to the **Country Flag Search** project! This is a simple web application
 ## 🚀 Features
 
 - 🔍 **Search Functionality**: Quickly find countries by name.
+- 🖼️ **Flag Display**: View high-quality flag images for each country.
