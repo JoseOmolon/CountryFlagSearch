@@ -5,7 +5,7 @@ Welcome to the **Country Flag Search** project! This is a simple web application
 ![Project Screenshot](https://via.placeholder.com/1200x600) 
 
 ## 🚀 Features
-
+1234
 - 🔍 **Search Functionality**: Quickly find countries by name.
 - 🖼️ **Flag Display**: View high-quality flag images for each country.
 - 🌐 **Country Details**: Access additional information about countries, such as population, region, and capital.  
